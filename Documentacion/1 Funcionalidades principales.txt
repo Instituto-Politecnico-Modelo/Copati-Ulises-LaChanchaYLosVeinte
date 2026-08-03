@@ -1,0 +1,41 @@
+1. Funcionalidades principales
+
+-Abm pedir comida. (usuario)
+-Abm mesa. (usuario)
+-Mirar historial de pedidos. (admin y usuario)
+
+2. Reglas de negocio
+
+-No permitir una reserva si no hay disponibilidad.
+-No vender productos sin stock.
+-No permitir cancelar un turno una vez iniciado.
+-No aceptar usuarios con un correo ya registrado.
+-No permitir realizar un pedido a un usuario no registrado.
+-No permitir realizar una reserva a un usuario no registrado.
+-No permitir eliminar pedidos ya entregados.
+-No permitir eliminar una cuenta.
+-No permitir eliminar una cuenta de otro usuaeio.
+-No permitir eliminar pedidos de otros usuarios.
+-No permitir cancelar turnos de otros usuarios.
+
+3. Validaciones
+
+-Formato válido de email.
+-Contraseña de 6 caracteres al menos.
+-El pedido debe tener al menos 1 producto para ser pedido.
+-La mesa tiene que estar disponible para poder ser reservada
+
+4. Tipos de usuarios
+
+-Administrador.
+-Usuario.
+-Recepcionista.
+
+5. Estados del sistema
+
+.Reserva: Disponible - Reservada - (Cancelada) - En proceso - Finalizada - 
+
+.Pedido: Pendiente de pago - Pagado - (Cancelado) - En preparacion - Deliveriando - Entregado -
+
+Requisitos mínimos del proyecto
+
