@@ -1,0 +1,14 @@
+{
+  "name": "chancha-y-los-veinte-backend",
+  "version": "1.0.0",
+  "description": "Backend MVC para La Chancha Y Los Veinte",
+  "type": "module",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "node --watch src/app.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
