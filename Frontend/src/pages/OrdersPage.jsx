@@ -56,7 +56,7 @@ export default function OrdersPage() {
               </div>
               <p className="muted">
                 {formatDateTime(order.fechaRealizacion)}
-                {isStaff && ` · Usuario #${order.codigoUsuario}`}
+                {isStaff && ` · ${order.emailUsuario}`}
               </p>
               <ul>
                 {order.items.map((i) => (

@@ -158,7 +158,7 @@ export default function ReservationsPage() {
                   <td>{tableById(r.codigoMesa) ? describeTable(tableById(r.codigoMesa)) : `Mesa ${r.codigoMesa}`}</td>
                   <td>{formatDate(r.fecha)}</td>
                   <td>{r.hora}</td>
-                  {isStaff && <td>#{r.codigoUsuario}</td>}
+                  {isStaff && <td>{r.emailUsuario}</td>}
                   <td><StatusBadge status={r.estado} /></td>
                   <td>
                     {r.estado === "Reservada" && r.codigoUsuario === user.codigo && (
