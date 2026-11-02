@@ -1,7 +1,14 @@
 import Producto from "../models/producto.model.js";
 
-let productos = [];
-let nextCodigo = 1;
+let productos = [
+    new Producto(1, "Costillar a lo bestia", 18500, "Costillar de cerdo para compartir", 15),
+    new Producto(2, "Matambre a la pizza", 14000, "Con mozzarella, salsa y papas fritas", 20),
+    new Producto(3, "Brasas para dos", 26000, "Parrillada surtida para dos personas", 10),
+    new Producto(4, "Empanadas de carne (x6)", 7200, "Carne cortada a cuchillo", 40),
+    new Producto(5, "Berenjenas al escabeche", 4800, "Entrada de la casa", 25),
+    new Producto(6, "Vino Malbec", 9500, "Botella 750 ml", 30)
+];
+let nextCodigo = 7;
 
 export const findAll = () => {
     return productos;
